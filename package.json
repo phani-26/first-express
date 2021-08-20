@@ -3,14 +3,25 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"
   },
   "author": "CodingNinjas",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^2.6.1",
-    "express": "^4.16.4"
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.7",
+    "nodemon": "^2.0.12"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phani-26/first-express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phani-26/first-express/issues"
+  },
+  "homepage": "https://github.com/phani-26/first-express#readme",
   "description": ""
 }
